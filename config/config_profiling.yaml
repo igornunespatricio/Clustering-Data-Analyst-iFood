@@ -1,0 +1,13 @@
+correlations:
+    pearson:
+      calculate: false
+      warn_high_correlations: false
+      threshold: 0.5
+    cramers:
+      calculate: true
+      warn_high_correlations: false
+      threshold: 0.5
+    auto:
+       calculate: false
+       warn_high_correlations: false
+       threshold: 0.5
